@@ -1,0 +1,28 @@
+{
+    "name": "lav45/yii2-jstree",
+    "description": "Widget for Yii Framework 2.0 to use JsTree",
+    "keywords": ["yii2", "extension", "widget", "jstree"],
+    "homepage": "https://github.com/lav45/yii2-jstree",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Alexey Loban",
+            "email": "lav451@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "2.0.*",
+        "bower-asset/jstree": "3.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lav45\\widget\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
